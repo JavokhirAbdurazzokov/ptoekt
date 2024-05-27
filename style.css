@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 30px 0;
+background-color: bisque;
+}
+
+.site_main{
+    background: bisque;
+    
+}
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    
+}
+.ota{
+    display: flex;
+    justify-content: space-between;
+}
+.ota ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.lovedone{
+    display: flex;
+    gap: 100px; 
+    align-items: center;  
+}
+.btnota  input{
+    padding: 7px 45px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 1;
+}
+.btnota  button{
+    padding: 4px 2px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 5;
+    left: 148px;
+    top: 3px;
+}
+.btnota{
+    position: relative;
+    top: 80px;
+}
+.relief{
+    background-image: url("./img/image\ 1\ \(1\).png");
+    height: 50vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+}
+.btn{
+    padding: 15px;
+    border-radius: 20px;
+margin-top: 120px;
+opacity: 0.9;
+    
+}
+.OTA{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.otah32{
+   padding-top: 35px;
+
+}
+.how{
+    font-size: 35px;
+}
+.main2{
+    background-color: antiquewhite;
+}
+.otapng button{
+background-color: black;
+border-radius: 20px;
+color: white;
+padding:10px 5px ;
+}
+.company{
+    display: flex;
+    gap:700px ;
+    padding: 29px;
+}
+.otah4{
+display: flex;  
+gap: 100px;    
+}
+
